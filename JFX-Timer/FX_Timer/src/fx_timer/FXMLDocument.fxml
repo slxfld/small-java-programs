@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="138.0" prefWidth="276.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx_timer.FXMLDocumentController">
+   <children>
+      <Rectangle fx:id="back_rect_id" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="144.0" stroke="BLACK" strokeType="INSIDE" width="276.0">
+         <effect>
+            <Reflection />
+         </effect>
+      </Rectangle>
+      <Label fx:id="Time_label" layoutX="18.0" layoutY="14.0" prefHeight="92.0" prefWidth="240.0" text="00:00:00" textFill="WHITE">
+         <font>
+            <Font name="BN Machine" size="64.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Button fx:id="button_start" layoutX="110.0" layoutY="107.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="56.0" style="-fx-background-radius: 0;" text="Start">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <TextField fx:id="txt_input" layoutX="14.0" layoutY="107.0" prefHeight="25.0" prefWidth="96.0" promptText="minuten" />
+      <Button fx:id="button_exit" layoutX="210.0" layoutY="115.0" mnemonicParsing="false" onAction="#handlestop" prefHeight="25.0" prefWidth="66.0" style="-fx-background-radius: 0;" text="Exit">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
