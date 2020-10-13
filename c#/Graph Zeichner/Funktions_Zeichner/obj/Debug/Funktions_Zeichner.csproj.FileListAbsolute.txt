@@ -1,0 +1,9 @@
+B:\Data\Programmierung\C#\Funktions_Zeichner\bin\Debug\Funktions_Zeichner.exe.config
+B:\Data\Programmierung\C#\Funktions_Zeichner\bin\Debug\Funktions_Zeichner.exe
+B:\Data\Programmierung\C#\Funktions_Zeichner\bin\Debug\Funktions_Zeichner.pdb
+B:\Data\Programmierung\C#\Funktions_Zeichner\obj\Debug\Funktions_Zeichner.csprojResolveAssemblyReference.cache
+B:\Data\Programmierung\C#\Funktions_Zeichner\obj\Debug\Funktions_Zeichner.Form1.resources
+B:\Data\Programmierung\C#\Funktions_Zeichner\obj\Debug\Funktions_Zeichner.Properties.Resources.resources
+B:\Data\Programmierung\C#\Funktions_Zeichner\obj\Debug\Funktions_Zeichner.csproj.GenerateResource.Cache
+B:\Data\Programmierung\C#\Funktions_Zeichner\obj\Debug\Funktions_Zeichner.exe
+B:\Data\Programmierung\C#\Funktions_Zeichner\obj\Debug\Funktions_Zeichner.pdb
