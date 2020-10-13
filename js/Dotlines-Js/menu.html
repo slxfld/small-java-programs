@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>
+  Main Menu
+</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <body>
+
+    <form action="menu.html" method="post">
+    <table width="200px" height="150px" border="2px" align="center" >
+
+      <tr>
+        <td align="center" height="20px">
+          <h1>Auswahl</h1>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <select id="select_ID" class="select_box" name="script_select">
+            <option value="/Dotlines-Js/wave/base.html">wave</option>
+            <option value="/Dotlines-Js/dotconnect/base.html">dotconnect</option>
+          </select>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+          <input id="myButton" type="button" value="Click"/>
+        </td>
+      </tr>
+
+      <script>
+      var value = "";
+      var e = document.getElementById("select_ID");
+      e.addEventListener('input',function(){
+        value = e.options[e.selectedIndex].value;
+      });
+
+        document.getElementById("myButton").onclick = function() {
+          alert(value);
+          location.href = value;
+        }
+      </script>
+
+    </table>
+    </form>
+  </body>
+</html>
